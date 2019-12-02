@@ -101,3 +101,4 @@ subroutine d2pur2(nm,ax,bx,pnash)
 
 	return
 	end
+
