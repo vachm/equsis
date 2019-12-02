@@ -1,6 +1,6 @@
 ! nm - number of cases evaluated
-! ax - a vector of characteristics for entity (a) in each evaluated case
-! bx - a vector of characteristics for entity (b) in each evaluated case
+! ax - a vector of characteristics for entity 1 in each evaluated case
+! bx - a vector of characteristics for entity 2 in each evaluated case
 ! pnash - a vector of the resulting NE probability values (calculated for pure strategies) in the individual cases evaluated
 
 
