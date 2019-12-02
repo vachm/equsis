@@ -141,4 +141,3 @@ subroutine d2pur3(nm,ax,bx,pnash)
 
 	return
 	end
-
