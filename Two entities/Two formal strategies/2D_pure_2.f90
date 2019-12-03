@@ -53,7 +53,7 @@ subroutine d2pur2(nm,ax,bx,pnash)
 	   bf(2)=bxi(j)
 
 
- ! permutations to vectors - eq. (3)
+ ! combination into vectors - eq. (3)
 	   avect(1,1)=af(1)
 	   bvect(1,1)=bf(1)
 
