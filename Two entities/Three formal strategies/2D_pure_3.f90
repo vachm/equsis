@@ -62,7 +62,7 @@ subroutine d2pur3(nm,ax,bx,pnash)
 
 
 
- ! permutations to vectors - eq. (3)
+ ! combination into vectors - eq. (3)
  	   avect(1,1)=af(1)
 	   bvect(1,1)=bf(1)
 
