@@ -17,9 +17,9 @@
 
 	zero=0.000000000000
 
-! matrix Amax dimension
-	iar=2
 ! matrix A dimension
+	iar=2
+! 2 entities
 	ndim=2
 
 ! factor - eq.(12) * eq (13)
