@@ -89,15 +89,15 @@
 	   		  
  		   if(p1.ge.zero.and.q1.ge.zero.and.p2.ge.zero.and.q2.ge.zero) then
  
-		   slbx(i)=slbx(i)+p1/ndim	! eq. (17)
-		   slbx(j)=slbx(j)+p1/ndim
-		   slbx(l)=slbx(l)+p2/ndim
-		   slbx(m)=slbx(m)+p2/ndim
+		   slbx(i)=slbx(i)+p1/iar	! eq. (17)
+		   slbx(j)=slbx(j)+p1/iar
+		   slbx(l)=slbx(l)+p2/iar
+		   slbx(m)=slbx(m)+p2/iar
 
-		   slby(i)=slby(i)+q1/ndim
-		   slby(l)=slby(l)+q1/ndim
-		   slby(j)=slby(j)+q2/ndim
-		   slby(m)=slby(m)+q2/ndim
+		   slby(i)=slby(i)+q1/iar
+		   slby(l)=slby(l)+q1/iar
+		   slby(j)=slby(j)+q2/iar
+		   slby(m)=slby(m)+q2/iar
 
                                        end if
 
