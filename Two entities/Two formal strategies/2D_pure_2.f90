@@ -102,3 +102,33 @@ subroutine d2pur2(nm,ax,bx,pnash)
 	return
 	end
 
+
+
+   function pbinom(nhor,ndol)
+   implicit real*8 (a-h,o-z)
+
+	   facd=1
+	do 698 i=2,ndol
+698	   facd=facd*i
+
+
+	   ndif=nhor-ndol+1
+	   fach=1
+	do 699 i=ndif,nhor
+699	   fach=fach*i
+
+      fom=fach/(facd)  
+	  pbinom=fom
+	  return
+	  end
+
+
+   function pfc(np)
+   implicit real*8 (a-h,o-z)
+
+	   pfc=1
+	do 698 i=2,np
+698	   pfc=pfc*i
+	   
+	   return
+	   end
